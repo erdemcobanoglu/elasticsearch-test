@@ -1,0 +1,14 @@
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\bin\Debug\netcoreapp2.2\SimpleESTest.Api.deps.json
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\bin\Debug\netcoreapp2.2\SimpleESTest.Api.runtimeconfig.json
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\bin\Debug\netcoreapp2.2\SimpleESTest.Api.runtimeconfig.dev.json
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\bin\Debug\netcoreapp2.2\SimpleESTest.Api.dll
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\bin\Debug\netcoreapp2.2\SimpleESTest.Api.pdb
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\obj\Debug\netcoreapp2.2\SimpleESTest.Api.csprojAssemblyReference.cache
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\obj\Debug\netcoreapp2.2\SimpleESTest.Api.csproj.CoreCompileInputs.cache
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\obj\Debug\netcoreapp2.2\SimpleESTest.Api.RazorAssemblyInfo.cache
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\obj\Debug\netcoreapp2.2\SimpleESTest.Api.RazorAssemblyInfo.cs
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\obj\Debug\netcoreapp2.2\SimpleESTest.Api.AssemblyInfoInputs.cache
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\obj\Debug\netcoreapp2.2\SimpleESTest.Api.AssemblyInfo.cs
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\obj\Debug\netcoreapp2.2\SimpleESTest.Api.RazorTargetAssemblyInfo.cache
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\obj\Debug\netcoreapp2.2\SimpleESTest.Api.dll
+D:\MyWorks\SimpleESTest\SimpleESTest.Api\obj\Debug\netcoreapp2.2\SimpleESTest.Api.pdb
