@@ -7,15 +7,23 @@ namespace SimpleESTest.Api.Helpers
     {
         public ElasticClientProvider(IOptions<ElasticConnectionSettings> settings)
         {
-             ConnectionSettings connectionSettings =
+             ConnectionSettings connectionSettingsTr =
             new ConnectionSettings(new System.Uri(settings.Value.ClusterUrl))
-            .DefaultIndex(settings.Value.DefaultIndex)
+            .DefaultIndex(settings.Value.DefaultIndex+"tr")
             .DefaultTypeName(settings.Value.DefaultType);
 
-            Client = new ElasticClient(connectionSettings);
+           ConnectionSettings connectionSettingsEn =
+            new ConnectionSettings(new System.Uri(settings.Value.ClusterUrl))
+            .DefaultIndex(settings.Value.DefaultIndex+"en")
+            .DefaultTypeName(settings.Value.DefaultType);
+
+            EnglishLanguageClient = new ElasticClient(connectionSettingsEn);
+            TurkishLanguageClient = new ElasticClient(connectionSettingsTr);
 
         }
 
-        public ElasticClient Client { get; }
+        public ElasticClient EnglishLanguageClient { get; }
+
+        public ElasticClient TurkishLanguageClient { get; set; }
     }
 }

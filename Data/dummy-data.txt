@@ -1,0 +1,69 @@
+POST /hr-tr/candidates/_bulk
+{ "index": {}}
+{ "resumeScore" : 100, "title" : "Banka kredi analist", "experience" : 6}
+{ "index": {}}
+{ "resumeScore" : 95, "title" : "Yazılım Geliştirici", "experience" : 2}
+{ "index": {}}
+{ "resumeScore" : 65, "title" : "Full-Stack Geliştirici", "experience" : 2}
+{ "index": {}}
+{ "resumeScore" : 60, "title" : "Elektrik-Elektronik Mühendisi", "experience" : 4}
+{ "index": {}}
+{ "resumeScore" : 78, "title" : "Makine Mühendisi", "experience" : 3}
+{ "index": {}}
+{ "resumeScore" : 36, "title" : "Diyetisyen", "experience" : 1}
+{ "index": {}}
+{ "resumeScore" : 84, "title" : "Muhasebeci", "experience" : 4}
+{ "index": {}}
+{ "resumeScore" : 73, "title" : "Banka kredi analist", "experience" : 7}
+{ "index": {}}
+{ "resumeScore" : 84, "title" : "IT Uzmanı", "experience" : 2}
+{ "index": {}}
+{ "resumeScore" : 56, "title" : "AR-GE Mühendisi", "experience" : 3}
+{ "index": {}}
+{ "resumeScore" : 72, "title" : "İnsan Kaynakları", "experience" : 8}
+{ "index": {}}
+{ "resumeScore" : 91, "title" : "Banka kredi analist", "experience" : 3}
+{ "index": {}}
+{ "resumeScore" : 69, "title" : "İş Analisti", "experience" : 2}
+{ "index": {}}
+{ "resumeScore" : 78, "title" : "Ressam", "experience" : 7}
+{ "index": {}}
+{ "resumeScore" : 100, "title" : "Banka Müdürü", "experience" : 3}
+{ "index": {}}
+{ "resumeScore" : 40, "title" : "Banka kredi analist", "experience" : 7}
+
+GET hr-en/candidates/_search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+POST /hr-en/candidates/_bulk
+{ "index": {}}
+{ "resumeScore" : 69, "title" : "Bank credits analyst", "experience" : 7}
+{ "index": {}}
+{ "resumeScore" : 86, "title" : "Software Developer", "experience" : 4}
+{ "index": {}}
+{ "resumeScore" : 93, "title" : "Full-Stack Developer", "experience" : 6}
+{ "index": {}}
+{ "resumeScore" : 60, "title" : "Electrical-Electronic Engineer", "experience" : 8}
+{ "index": {}}
+{ "resumeScore" : 93, "title" : "Mechanical Engineer", "experience" : 3}
+{ "index": {}}
+{ "resumeScore" : 36, "title" : "Bank credits analyst", "experience" : 1}
+{ "index": {}}
+{ "resumeScore" : 63, "title" : "Cook", "experience" : 6}
+{ "index": {}}
+{ "resumeScore" : 45, "title" : "Fashion designer", "experience" : 7}
+{ "index": {}}
+{ "resumeScore" : 84, "title" : "Guide", "experience" : 2}
+{ "index": {}}
+{ "resumeScore" : 56, "title" : "Bank credits analyst", "experience" : 7}
+{ "index": {}}
+{ "resumeScore" : 72, "title" : "Human Resource", "experience" : 8}
+{ "index": {}}
+{ "resumeScore" : 91, "title" : "Bank credits analyst", "experience" : 3}
+{ "index": {}}
+{ "resumeScore" : 78, "title" : "Cameraman", "experience" : 7}
+{ "index": {}}
+{ "resumeScore" : 100, "title" : "Banka Manager", "experience" : 3}
