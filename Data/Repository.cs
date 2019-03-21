@@ -17,8 +17,8 @@ namespace SimpleESTest.Api.Data
         }
         public async Task<List<Candidate>> GetCandidates()
         {
-            var enResult = await GetCandidatesForTurkishSearch("Banka kredi analist");
-            var trResult = await GetCandidatesForEnglishSearch("Bank credits analyst");
+            var trResult = await GetCandidatesForTurkishSearch("Banka kredi analist");
+            var enResult = await GetCandidatesForEnglishSearch("Bank credits analyst");
 
             var result = enResult.Concat(trResult).ToList();
 
