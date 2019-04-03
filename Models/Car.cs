@@ -6,6 +6,6 @@ namespace SimpleESTest.Api.Models
 
         public string Color { get; set; }
 
-        public float Price { get; set; }
+        public decimal Price { get; set; }
     }
 }
